@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&family=Open+Sans:wght@500&family=Poppins:wght@700&display=swap');
 body {
     background-color: #fff;
     margin: 0;
@@ -135,4 +136,44 @@ body {
         -webkit-text-fill-color: transparent;
     }
 
+}
+
+/* css content */
+.teks-brand {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    flex-wrap: wrap;
+}
+
+.teks {
+    margin: 100px 50px;
+}
+
+.teks h1 {
+    font-size: 50px;
+    font-family: 'Poppins',
+    sans-serif;
+    color: red;
+    margin-top: -1px;
+}
+
+.teks p {
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -20px;
+}
+
+button {
+    border: none;
+    background-color: orangered;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.brand {
+    margin: 50px;
 }
